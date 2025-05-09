@@ -11,7 +11,7 @@ public class Controller {
 
     @GetMapping("/boasvindas")
     public String boasvindas(){
-        return "Boas vindas";
+        return "Boas vindas ao usuario!";
     }
 
 }
