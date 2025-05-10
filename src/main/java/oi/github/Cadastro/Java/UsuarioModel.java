@@ -8,10 +8,10 @@ public class UsuarioModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    String nome;
-    Integer idade;
-    String email;
+    private Long id;
+    private String nome;
+    private Integer idade;
+    private String email;
 
     public UsuarioModel(String nome, Integer idade, String email) {
         this.nome = nome;
